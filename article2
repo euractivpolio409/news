@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Euractiv</title>
+<style>
+    body {font-family: "Helvetica Neue", Arial, sans-serif; margin:0; background:#fff; color:#222; line-height:1.6;}
+    header {background:#ffcc00; padding:1rem 2rem; display:flex; justify-content:space-between; flex-wrap:wrap;}
+    header h1 {font-size:1.5rem; margin:0; font-weight:700; color:#000;}
+    nav a {color:#000; text-decoration:none; margin-left:1rem; font-weight:600;}
+    nav a:hover {text-decoration:underline;}
+    .container {max-width:1100px; margin:2rem auto; padding:0 1rem;}
+    .featured {display:flex; flex-wrap:wrap; margin-bottom:2rem;}
+    .featured img {width:100%; max-width:600px; border-radius:6px;}
+    .featured-content {flex:1; padding:1rem; min-width:250px;}
+    .featured-content h2 {margin-top:0; font-size:1.8rem; color:#222;}
+    .featured-content p {color:#444;}
+    .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:1.5rem;}
+    .article {border-top:4px solid #ffcc00; padding-top:0.5rem;}
+    .article img {width:100%; border-radius:6px;}
+    .article h3 {margin:0.5rem 0; font-size:1.2rem;}
+    footer {background:#f4f4f4; text-align:center; padding:1rem; font-size:0.9rem; color:#555; margin-top:3rem;}
+    @media(max-width:700px){.featured{flex-direction:column;}}
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Euractiv</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">Politics</a>
+    <a href="#">Economy</a>
+    <a href="#">Agrifood</a>
+    <a href="#">Opinion</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>INTERVIEW: The renationalisation of environmental measures is detrimental to Europe’s competitiveness, warns Parliament’s agriculture chair</h1>
+  <p><em>By Euractiv | Oct 13, 2025</em></p>
+  <a href="https://ibb.co/vNTLFHk"><img src="https://i.ibb.co/rBz5jmH/Imagem-Whats-App-2025-10-12-s-23-02-15-7dce526f.jpg" alt="Imagem-Whats-App-2025-10-12-s-23-02-15-7dce526f" border="0"></a>
+  <p>As the European Parliament examines the European Commission’s CAP simplification package, AGRI Committee chair Norbert Lins insists that reducing bureaucracy for farmers must not come at the expense of a common European framework or the EU’s environmental objectives.</p>
+  <p>In an interview with Euractiv, Lins warned against “renationalising” the Common Agricultural Policy under the banner of simplification.</p>
+  <p>“The renationalisation of environmental measures is detrimental to Europe’s competitiveness and undermines the level playing field we are trying to maintain,” he said.</p>
+  <p>The Commission’s proposal, introduced earlier this year in response to farmers’ protests, aims to enhance competitiveness by reducing administrative burdens on farmers and offering greater flexibility regarding environmental requirements. Supporters say it will cut red tape and improve predictability, while critics warn it could weaken compliance with the Green Deal and the EU’s climate goals.</p>
+  <p>Lins rejected the idea that simplification equals deregulation.</p>
+  <p>“It’s about making the rules of the game easier to follow, not removing them,” he told Euractiv. “Farmers need clear, stable rules and support that rewards their work rather than penalising them for non-compliance.”</p>
+  <p>When asked about the tone of negotiations within the committee, the EPP chair described the discussion as “constructive”, with all sides recognising the need to make farmers’ lives easier despite persisting political differences.</p>
+  <p>“Across the spectrum, there is broad consensus on one essential point: the need to reduce the administrative burden for farmers,” he said. “Those who seek to overload this proposal with ideological demands risk undermining the very farmers they claim to protect.”</p>
+  <p>According to Lins, the main goal for the next meeting, scheduled for 18 November, is to reach a “strong and coherent position” before the trilogue stage. The first trilogue is set to take place on 2 December.</p>
+  <p><a href="index.html">← Back to Home</a></p>
+</div>
+
+<footer>
+  © 2025 Euractiv | Not Affiliated - Made for Educational Purposes
+</footer>
+</body>
+</html>
